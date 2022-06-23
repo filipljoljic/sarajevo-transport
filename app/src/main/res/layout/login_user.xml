@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3200BCD4"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20sp"
+        android:gravity="center_horizontal"
+        android:text="Sarajevo Transport"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:hint="Enter Username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/loginUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Login"
+        app:backgroundTint="#0288D1" />
+
+    <Button
+        android:id="@+id/forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Forgot Password"
+        app:backgroundTint="#0288D1" />
+
+</LinearLayout>

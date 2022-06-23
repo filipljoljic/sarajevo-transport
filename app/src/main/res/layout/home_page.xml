@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3200BCD4">
+
+    <TextView
+        android:id="@+id/burgerBarMeniClick"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:background="#A19E9E"
+        android:gravity="center"
+        android:text="Sarajevo Transport"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="160dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="50dp"
+        android:text="Transport option"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/burgerBarMeniClick" />
+
+    <EditText
+        android:id="@+id/starting_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Starting point"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:hint="Destination"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/starting_point" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="277dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:hint="2022/05/22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/destination" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="277dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="16dp"
+        android:text="SEARCH"
+        app:backgroundTint="#0288D1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <Button
+        android:id="@+id/burgerBarMeni"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+        app:backgroundTint="#0288D1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

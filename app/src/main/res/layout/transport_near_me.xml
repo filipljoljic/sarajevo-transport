@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03200BCD">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="408dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Transport near me"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/mockView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.utils.widget.MockView
+        android:id="@+id/mockView"
+        android:layout_width="413dp"
+        android:layout_height="662dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+</androidx.constraintlayout.widget.ConstraintLayout>

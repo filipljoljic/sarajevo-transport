@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3200BCD4">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="117dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="117dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="227dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text=" Some text regarfing our application will go here .......... ....................... .................... ...........  .............. .........."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="227dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text=" Some text regarfing our application will go here .......... ....................... .................... ...........  .............. .........."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="368dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="ABOUT US SECTION WHERE SOME BASIC INFORMATION WILL BE PRESENTED. Sarajevo Transport is an application that will help people keep track of transport in their city. Users will be able to see how close do they have some kind of transport, and they will be able too book any of them. Some transports that are going to be available to users are cab, tram, bus, electric scooter, electric bicycle. Users will also be able to pay in advance all those transportations by credit card. In addition, users will be provided with a section where they can choose a transportation and see all available places where they can find electric scooter and electric bicycle and they will also see all routes of trams, buses and cabs at that moment."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/burgerBarMeniClick"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:background="#A19E9E"
+        android:gravity="center"
+        android:text="ABOUT US"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/burgerBarMenu"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hamburger" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
